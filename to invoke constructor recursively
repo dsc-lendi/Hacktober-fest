@@ -1,0 +1,26 @@
+#include<iostream.h>
+#include<conio.h>
+#include<process.h>
+ class tri_num
+ {
+   int f;
+   public: 
+          tri num()  {f=0;}
+          void sum( int j) {f=f+j;}
+          tri_num(int m)
+          {
+          if (m==0)
+          {
+          cout<<"triangular number:"<<f;
+          exit(1);
+          }
+          sum(m);
+          tri_num::tri_num(--m);
+          }
+};
+void main()
+{
+  clrscr();
+  tri num a;
+  a.tri_num::tri_num(5);
+}  
