@@ -1,2 +1,2 @@
 # Python Repository
-# in this reposiratory python projects are there
+# In this repository there are python projects 
